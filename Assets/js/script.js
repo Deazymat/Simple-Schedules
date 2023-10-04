@@ -12,8 +12,12 @@ $(function () {
     var currentHour = currentDate.getHours();
 
     timeBlocks.forEach(function (block) {
-      // this is ti extract the hour from the id
       var blockHour = parseInt(block.getAttribute("id").split("-")[1], 10);
+
+      if (blockHour <= 5) blockHour += 12;
+
+      block.classList.add("past" ,"present", "future");
+      
 
       if (blockHour < currentHour) {
         block.classList.add("past");
