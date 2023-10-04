@@ -12,6 +12,10 @@
 3. Press the "SAVE" button to store your event.
 4. Then the events will be stored into your local storage.
 
+## Screenshot
+
+![My Screenshot](./Assets/pictures/screencapture-127-0-0-1-5500-index-html-2023-10-03-22_27_34.png)
+
 ## Dependencies 
 
 Project uses the following dependencies:
